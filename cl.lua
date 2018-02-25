@@ -8,6 +8,8 @@ Citizen.CreateThread(function()
                 gtid = CreateMpGamerTag(ped, GetPlayerName(i), false, false, "", 0)
             end
             RemoveMpGamerTag(gtid)
+                
+            Wait(0)
         end
     end
 end)
